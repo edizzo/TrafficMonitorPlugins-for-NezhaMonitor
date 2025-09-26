@@ -13,3 +13,4 @@
 
 ---
 
+![](https://github.com/topqaz/TrafficMonitorPlugins-for-NezhaMonitor/blob/master/2025_09_26_14_21_25.jpg?raw=true)
