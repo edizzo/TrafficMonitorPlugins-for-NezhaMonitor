@@ -122,10 +122,12 @@ public:
                             double diskUsage = (diskTotal > 0) ? round2((diskUsed / diskTotal) * 100.0) : 0.0;
                             double memGB = round2(memUsed / (1024.0 * 1024.0 * 1024.0));
                             double diskGB = round2(diskUsed / (1024.0 * 1024.0 * 1024.0));
+							double diskTotalGB = round2(diskTotal / (1024.0 * 1024.0 * 1024.0));
+							double memTotalGB = round2(memTotal / (1024.0 * 1024.0 * 1024.0));
 
                             if (s.cpu) { std::wstringstream ss; ss << cpu << L"%"; s.cpu->valueText = ss.str(); }
-                            if (s.mem) { std::wstringstream ss; ss << memUsage << L"% (" << memGB << L"GB)"; s.mem->valueText = ss.str(); }
-                            if (s.disk) { std::wstringstream ss; ss << diskUsage << L"% (" << diskGB << L"GB)"; s.disk->valueText = ss.str(); }
+                            if (s.mem) { std::wstringstream ss; ss << memUsage << L"% (" << memTotalGB << L"GB)"; s.mem->valueText = ss.str(); }
+                            if (s.disk) { std::wstringstream ss; ss << diskUsage << L"% (" << diskTotalGB << L"GB)"; s.disk->valueText = ss.str(); }
 
                             double upBps = 0.0, downBps = 0.0;
                             if (state.contains("net_out_speed") || state.contains("net_in_speed")) {
