@@ -57,7 +57,7 @@ private:
 
 public:
     NezhaPlugin() {
-        // 预先分配固定数量的项目对象
+
         const int MAX_SERVERS = 6;
         const int ITEMS_PER_SERVER = 4;
         int requiredItems = MAX_SERVERS * ITEMS_PER_SERVER + 1;
@@ -241,7 +241,7 @@ public:
         case TMI_AUTHOR: return L"topqaz";
         case TMI_COPYRIGHT: return L"Copyright(C)by topqaz";
         case TMI_VERSION: return L"1.0";
-        case TMI_URL: return L"https://github.com/topqaz";
+        case TMI_URL: return L"https://github.com/topqaz/TrafficMonitorPlugins-for-NezhaMonitor";
         default: return L"";
         }
     }
