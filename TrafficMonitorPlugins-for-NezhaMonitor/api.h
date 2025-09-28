@@ -31,7 +31,8 @@ private:
     json httpRequest(const std::string& method,
         const std::string& url,
         const std::string& body = "",
-        const std::string& auth = "");
+        const std::string& auth = "",
+        bool retry = true);
 
     void authenticate();
 

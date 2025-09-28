@@ -84,7 +84,9 @@ size_t NezhaAPI::writeCallback(void* contents, size_t size, size_t nmemb, void* 
 json NezhaAPI::httpRequest(const std::string& method,
     const std::string& url,
     const std::string& body,
-    const std::string& auth) {
+    const std::string& auth,
+    bool retry /*= true*/) 
+{
     CURL* curl = curl_easy_init();
     if (!curl) throw std::runtime_error("Failed to init curl");
 
@@ -112,12 +114,23 @@ json NezhaAPI::httpRequest(const std::string& method,
         throw std::runtime_error("CURL error: " + std::string(curl_easy_strerror(res)));
     }
 
+    json resp;
     try {
-        return json::parse(response);
-    }
-    catch (...) {
+        resp = json::parse(response);
+    } catch (...) {
         return json{ {"error", "Invalid JSON response"}, {"raw", response} };
     }
+
+    // 如果返回 401 并且还没有重试过
+    if (retry && resp.contains("status") && resp["status"] == 401) {
+        // 清空 token 重新认证
+        token.clear();
+        authenticate();
+        // 带新 token 重试一次
+        return httpRequest(method, url, body, token, false);
+    }
+
+    return resp;
 }
 
 void NezhaAPI::authenticate() {
