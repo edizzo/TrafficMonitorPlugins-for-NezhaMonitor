@@ -12,6 +12,6 @@
 - 配置保存在插件目录下，可持久化  
 
 ---
-
+![](https://github.com/topqaz/TrafficMonitorPlugins-for-NezhaMonitor/blob/master/2025_09_28_15_58_38.jpg?raw=true)
 ![](https://github.com/topqaz/TrafficMonitorPlugins-for-NezhaMonitor/blob/master/2025_09_26_14_21_25.jpg?raw=true)
 ![](https://github.com/topqaz/TrafficMonitorPlugins-for-NezhaMonitor/blob/master/2025_09_26_14_36_36.jpg?raw=true)
